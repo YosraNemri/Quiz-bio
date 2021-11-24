@@ -32,11 +32,15 @@ $ cd client
 $ npm install
 
 
-## 4-Run the application
+## 4-Run the application locally
 
 npm run dev 
 
 and enjoy the Quiz!
+
+## 5-Deployed web site: 
+https://microscopy-quiz.herokuapp.com/
+
 
 # Schemas/Models
 4 Models: 
