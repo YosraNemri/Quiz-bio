@@ -8,7 +8,7 @@
 
 # Quiz-bio:
 
-Projet Programmation web/base de donnée. Quizz biologique
+Web/Database Programming Project: Biological quiz
 
 ## Objective:
 
