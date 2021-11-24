@@ -39,6 +39,8 @@ npm run dev
 and enjoy the Quiz!
 
 ## 5-Deployed web site: 
+Heroku is a platform as a service that enables developers to build, run, and operate applications entirely in the cloud.
+
 https://microscopy-quiz.herokuapp.com/
 
 
