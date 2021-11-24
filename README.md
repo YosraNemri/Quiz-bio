@@ -3,7 +3,7 @@
                 Master in Bioinformatics with a specialization in software development and data analysis
                              
                         
-                             Course: Web Programming and database
+                Course: Web Programming and database
 
 
 # Quiz-bio:
