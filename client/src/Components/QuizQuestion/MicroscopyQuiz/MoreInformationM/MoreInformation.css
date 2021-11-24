@@ -1,0 +1,112 @@
+.container {
+    position: absolute;
+    height: 80%;
+    width: 91%;
+    top: 15%;
+    left: calc(27% - 300px);
+    display: flex;
+    transition: 0.4s ease-in-out;
+}
+
+.card {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+
+.card:not(:first-child):hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+.title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+.card img {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 17px;
+}
+.details-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-details {
+    display: flex;
+    flex-direction: column;
+    word-wrap: wrap;
+    letter-spacing: -0.6px;
+    margin-top: -11px;
+    margin-left: 20px;
+    width: 94%;
+    overflow-y: auto;
+}
+.content-span {
+    font-size: 18px;
+    color: rgb(207, 64, 64);
+}
+.details-span {
+    font-size: 15px;
+    color: #f2f2f2;
+}
+.display-details {
+    display: flex;
+}
+.display-details p {
+    font-size: 16px;
+}
+.infos {
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.infos p {
+    margin-top: -2px;
+}
+#back-btn {
+    position: absolute;
+    top: 95%;
+    cursor: pointer;
+    width: 10%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #d6d6d6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1c1f26;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

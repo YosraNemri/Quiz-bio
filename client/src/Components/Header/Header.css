@@ -1,0 +1,194 @@
+body,
+button {
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #1c1f26;
+}
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 50%;
+    }
+}
+
+.menu {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 13.5%;
+    padding-right: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo {
+    max-width: 250px;
+    min-width: 170px;
+}
+/* .Logo img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+} */
+.Logo a {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 900;
+    color: #f53838;
+}
+@media screen and (max-width: 1078px) {
+    .Logo {
+        width: 50%;
+        max-width: initial;
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0;
+        justify-content: flex-start;
+    }
+    .menu .info {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Logo {
+        width: 50%;
+        max-width: initial;
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0;
+        justify-content: flex-start;
+    }
+    .menu .info {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 540px) {
+    .Logo a {
+        font-size: 20px;
+    }
+    .Logo {
+        width: 30%;
+    }
+    .menu {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+    .menu .info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu .info h2 {
+        font-size: 18px;
+    }
+    .menu .info button {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .Logo a {
+        font-size: 16px;
+    }
+    .menu {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    .menu .info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu .info h2 {
+        font-size: 12px;
+    }
+    .menu .info button {
+        font-size: 12px;
+    }
+}
+.Auth-btn {
+    max-width: 250px;
+    min-width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Auth-btn a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.login-btn {
+    border-radius: 5px;
+    background-color: #f53838;
+    color: #fff;
+    padding: 12px;
+    width: 55px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(245 56 56 / 27%);
+}
+.login-btn:hover {
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgb(245 56 56 / 27%);
+}
+.register-btn {
+    border-radius: 5px;
+    background-color: #f53838;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2),
+        0 5px 10px rgb(245 56 56 / 27%);
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    width: 55px;
+}
+
+.register-btn:hover {
+    box-shadow: 0 5px 10px rgb(245 56 56 / 27%);
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+    color: #f2f2f2;
+    font-size: 14px;
+    width: 30%;
+}
+.info button {
+    border: none;
+    background: none;
+    color: #f53838;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.info button:hover {
+    border-bottom: 1px solid #f53838;
+}
+.profile-link {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.profile-link:hover {
+    color: #f53838;
+}

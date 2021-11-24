@@ -1,0 +1,96 @@
+.ComponentQuiz {
+    background-color: #0e1217;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 627px;
+}
+.QuestionsComponent {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.QuestionsComponent p {
+    line-height: 1.4;
+    font-size: 28px;
+    color: #f2f2f2;
+}
+.Questions-block-Component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #1c1f26;
+}
+
+.Questions-block-Component h2 {
+    font-size: 28px;
+    color: #f2f2f2;
+}
+.QuestionImagesComponent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.AnswersComponent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.AnswerOptionComponent {
+    width: 46%;
+    margin: 0px 2% 2%;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    background-color: #0e1217;
+    color: #f2f2f2;
+    padding: 10px 15px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    letter-spacing: 0px;
+}
+.AnswerOptionComponent:hover {
+    border-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+    .ComponentQuiz {
+        height: 667px;
+    }
+    .ComponentQuiz .Questions-block-Component {
+        width: 94%;
+    }
+    .ComponentQuiz .Questions-block-Component h2 {
+        font-size: 16px;
+        text-align: center;
+        width: 85%;
+    }
+    .ComponentQuiz .Questions-block-Component .QuestionImagesComponent img {
+        width: 250px;
+        height: 250px;
+    }
+    .ComponentQuiz .Questions-block-Component .AnswersComponent {
+        flex-direction: column;
+        width: 640px;
+    }
+}
+@media screen and (max-width: 368px) {
+    .ComponentQuiz .Questions-block-Component .QuestionImagesComponent img {
+        width: 140px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,25 @@
+.Profile {
+    background-color: #0e1217;
+    padding: 55px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 517px;
+}
+
+.profile-info {
+    background-color: #1c1f26;
+    width: 35%;
+    padding: 25px;
+    border-radius: 5px;
+    font-family: "Mulish", sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.profile-info p {
+    font-size: 20px;
+    color: #f2f2f2;
+}
+.profile-info p span {
+    color: rgba(173, 13, 8, 0.63);
+}

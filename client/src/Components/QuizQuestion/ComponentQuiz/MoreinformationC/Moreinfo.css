@@ -1,0 +1,30 @@
+#information {
+    width: 95%;
+    height: 90%;
+    position: absolute;
+    top: 12%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    background-color: #1c1f26;
+    border-radius: 5px;
+}
+.details p {
+    font-size: 15px;
+    width: 270px;
+    letter-spacing: -0.8px;
+}
+#back-btn {
+    position: absolute;
+    top: 98%;
+    cursor: pointer;
+    width: 10%;
+}
+.details span {
+    color: red;
+}
+#description {
+    height: 420px;
+    /* border: 1px solid red; */
+    overflow-y: auto;
+}
