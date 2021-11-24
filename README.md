@@ -14,3 +14,8 @@ $ npm install
 $ cd client
 
 $ npm install
+
+
+## 4-Run the application
+
+npm run dev 
