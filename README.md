@@ -1,15 +1,21 @@
 ![image](https://user-images.githubusercontent.com/80050807/143290880-7225b885-3074-4bb2-8160-c79d680981bb.png)
 
+                Master in Bioinformatics with a specialization in software development and data analysis
+                             
+                        
+                             Course: Web Programming and database
 
 
 # Quiz-bio:
 
 Projet Programmation web/base de donnée. Quizz biologique
 
-##Objectif : Créer un site de quizz portant sur l’identification d’image de microscopie – sujet biologique
-L’utilisateur a le choix de séléctionner le quizz voulu (microscopie ou component).
+## Objective:
 
-Les informations pour les images sont récupérés depuis le site de la Cell Image Library.
+Create a quiz site on microscopy image identification - biological subject
+The user has the choice to select the desired quiz (microscopy or component).
+
+The information for the images is retrieved from the Cell Image Library website.
 ## 1- Clone repository
 $ git clone https://github.com/YosraNemri/Quiz-bio
 
@@ -30,6 +36,8 @@ $ npm install
 
 npm run dev 
 
+and enjoy the Quiz!
+
 # Schemas/Models
 4 Models: 
 
@@ -45,7 +53,7 @@ npm run dev
 A company that provides a cloud-based image and video management services. It enables users to upload, store, manage, manipulate, and deliver images and video for websites and apps.
 website: https://cloudinary.com/
 # MERN Stack: 
-The MERNN stack is JavaScript-based framework for developing web applications. MERN is named after MongoDB, Express, React and Node, the four key technologies that make up the layers of the stack.
+The MERN stack is JavaScript-based framework for developing web applications. MERN is named after MongoDB, Express, React and Node, the four key technologies that make up the layers of the stack.
 
 ### Mongodb Atlas:
 MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
