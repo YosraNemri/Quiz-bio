@@ -21,7 +21,7 @@ $ git clone https://github.com/YosraNemri/Quiz-bio
 
 
 ## 2- Install Backend 
-$ cd Quiz
+$ cd Quiz-bio
 
 $ npm install
 
