@@ -9,6 +9,7 @@
 # Quiz-bio:
 
 Web/Database Programming Project: Biological quiz
+Brush up your knowledge by taking biological quiz, it's fun and benefical for your brain!
 
 ## Objective:
 
