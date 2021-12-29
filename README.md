@@ -1,9 +1,4 @@
-![image](https://user-images.githubusercontent.com/80050807/143290880-7225b885-3074-4bb2-8160-c79d680981bb.png)
 
-                Master in Bioinformatics with a specialization in software development and data analysis
-                             
-                        
-                Course: Web Programming and database
 
 
 # Quiz-bio:
